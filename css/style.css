@@ -1,0 +1,77 @@
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+@import url("./normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+/*@font-face {*/
+/*    font-family: Yeseva, sans-serif;*/
+/*    src: url("fonts/YesevaOne-Regular.ttf") format('TrueType');*/
+/*    font-weight: 400;*/
+/*    font-style: normal;*/
+/*    font-stretch: normal;*/
+/*    font-variant: normal;*/
+/*}*/
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("fonts/Comfortaa-Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+    line-height: normal
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+button{
+    border: 0;
+}
+h1{
+    margin: 0;
+}
+
+body {
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    color: #000;
+    line-height: normal;
+
+    background-color: #FFF8F3;
+
+}
+
+.container {
+    max-width: 1182px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+@media (max-width: 1000px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        max-width: 490px;
+    }
+}
